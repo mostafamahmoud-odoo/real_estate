@@ -1,0 +1,526 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* recap_module
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-10 03:13+0000\n"
+"PO-Revision-Date: 2024-09-10 03:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "/&gt;"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<br>General Info</br>"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<span style=\"font-weight:bold;color:#343434\">Name</span>"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<span style=\"font-weight:bold;color:#343434\">Owner</span>"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<span style=\"font-weight:bold;color:#343434\">PostCode</span>"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__active
+#: model:ir.model.fields,field_description:recap_module.field_properity__active
+msgid "Active"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.owner_view_form
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Additional Info"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__address
+#: model:ir.model.fields,field_description:recap_module.field_properity__address
+msgid "Address"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__age
+#: model:ir.model.fields,field_description:recap_module.field_properity__age
+msgid "Age"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__bedrooms_ids
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Bedrooms"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.actions.server,name:recap_module.close_server_action
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Close"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__closed
+msgid "Closed"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__create_uid
+#: model:ir.model.fields,field_description:recap_module.field_owner__create_uid
+#: model:ir.model.fields,field_description:recap_module.field_properity__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__create_date
+#: model:ir.model.fields,field_description:recap_module.field_owner__create_date
+#: model:ir.model.fields,field_description:recap_module.field_properity__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__date_availability
+msgid "Date Availability"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__description
+#: model:ir.model.fields,field_description:recap_module.field_properity__description
+msgid "Description"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__display_name
+#: model:ir.model.fields,field_description:recap_module.field_owner__display_name
+#: model:ir.model.fields,field_description:recap_module.field_properity__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__dob
+msgid "Dob"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__done
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Done"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__east
+msgid "East"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__expected_price
+msgid "Expected Price"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__expected_saling_date
+msgid "Expected Salling Date"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__garage
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_search
+msgid "Garage"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__garden_orientation
+msgid "Garden Orientation"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.owner_view_form
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "General Info"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__id
+#: model:ir.model.fields,field_description:recap_module.field_owner__id
+#: model:ir.model.fields,field_description:recap_module.field_properity__id
+msgid "ID"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__message_has_error
+#: model:ir.model.fields,help:recap_module.field_properity__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__is_late
+msgid "Is Late"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__write_uid
+#: model:ir.model.fields,field_description:recap_module.field_owner__write_uid
+#: model:ir.model.fields,field_description:recap_module.field_properity__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__write_date
+#: model:ir.model.fields,field_description:recap_module.field_owner__write_date
+#: model:ir.model.fields,field_description:recap_module.field_properity__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__owner__title__miss
+msgid "Miss"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__owner__title__mr
+msgid "Mr"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__name
+#: model:ir.model.fields,field_description:recap_module.field_properity__name
+msgid "Name"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.constraint,message:recap_module.constraint_properity_unique_name
+msgid "Name is exist!"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__north
+msgid "North"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__number
+msgid "Number"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__bedrooms
+msgid "Number of Bedrooms"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__order_id
+msgid "Order"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.actions.act_window,name:recap_module.owner_action
+#: model:ir.model.fields,field_description:recap_module.field_properity__owner_id
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_search
+msgid "Owner"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.ui.menu,name:recap_module.owner_menu_item
+#: model:ir.ui.menu,name:recap_module.owners_menu
+msgid "Owners"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__pending
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Pending"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__phone
+msgid "Phone"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__postcode
+msgid "Postcode"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.ui.menu,name:recap_module.properites_menu
+#: model:ir.ui.menu,name:recap_module.properity_menu_item
+msgid "Properites"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.actions.act_window,name:recap_module.properity_action
+#: model:ir.model.fields,field_description:recap_module.field_sale_order__properity_ids
+msgid "Properity"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.sale_view_order_form_inherit
+msgid "Properties"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.actions.report,name:recap_module.property_report_id
+msgid "Properties Report"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__property_id
+#: model:ir.model.fields,field_description:recap_module.field_owner__property_ids
+msgid "Property"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "Property Report"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.actions.server,name:recap_module.check_late_properties_id_ir_actions_server
+msgid "Property: Check Late Properties"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.ui.menu,name:recap_module.real_estate_root_menu
+msgid "Real Estate"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__ref
+msgid "Ref"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__selling_price
+msgid "Selling Price"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Set TO Draft"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__douth
+msgid "South"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__state
+msgid "State"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__title
+msgid "Title"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__eest
+msgid "West"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_bedroom
+msgid "bedroom"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_owner
+msgid "owner"
+msgstr ""
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_properity
+msgid "properity"
+msgstr ""
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_search
+msgid "with Garage"
+msgstr ""

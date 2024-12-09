@@ -1,0 +1,222 @@
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<br>General Info</br>"
+msgstr "تفاصيل عامة"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<span style=\"font-weight:bold;color:#343434\">Name</span>"
+msgstr "الإسم"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.property_report_template
+msgid "<span style=\"font-weight:bold;color:#343434\">Owner</span>"
+msgstr "المالك"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_needaction
+msgid "Action Needed"
+msgstr "الإجراء المطلوب"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__active
+#: model:ir.model.fields,field_description:recap_module.field_properity__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزيين استثناء النشاط"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.owner_view_form
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Additional Info"
+msgstr "معلومات إضافية"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__address
+#: model:ir.model.fields,field_description:recap_module.field_properity__address
+msgid "Address"
+msgstr "العنوان"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__age
+#: model:ir.model.fields,field_description:recap_module.field_properity__age
+msgid "Age"
+msgstr "العمر"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__bedrooms_ids
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Bedrooms"
+msgstr "غرف النوم"
+
+#. module: recap_module
+#: model:ir.actions.server,name:recap_module.close_server_action
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__closed
+msgid "Closed"
+msgstr "مغلق"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__create_uid
+#: model:ir.model.fields,field_description:recap_module.field_owner__create_uid
+#: model:ir.model.fields,field_description:recap_module.field_properity__create_uid
+msgid "Created by"
+msgstr "تم الإنشاء بواسطة"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__create_date
+#: model:ir.model.fields,field_description:recap_module.field_owner__create_date
+#: model:ir.model.fields,field_description:recap_module.field_properity__create_date
+msgid "Created on"
+msgstr "تم الإنشاء في"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__date_availability
+msgid "Date Availability"
+msgstr "تاريخ التوافر"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__description
+#: model:ir.model.fields,field_description:recap_module.field_properity__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_bedroom__display_name
+#: model:ir.model.fields,field_description:recap_module.field_owner__display_name
+#: model:ir.model.fields,field_description:recap_module.field_properity__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_owner__dob
+msgid "Dob"
+msgstr "تاريخ الميلاد"
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__done
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "Done"
+msgstr "تم"
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__east
+msgid "East"
+msgstr "الشرق"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__expected_price
+msgid "Expected Price"
+msgstr "السعر المتوقع"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__expected_saling_date
+msgid "Expected Salling Date"
+msgstr "تاريخ البيع المتوقع"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (شركاء)"
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط الرائع مثلاً fa-tasks"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__garage
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_search
+msgid "Garage"
+msgstr "جراج"
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__garden_orientation
+msgid "Garden Orientation"
+msgstr "اتجاه الحديقة"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.owner_view_form
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_form
+msgid "General Info"
+msgstr "معلومات عامة"
+
+
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي المسجل."
+
+#. module: recap_module
+#: model:ir.model.fields,field_description:recap_module.field_properity__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: recap_module
+#: model:ir.model.fields,help:recap_module.field_properity__website_message_ids
+msgid "Website communication history"
+msgstr "تاريخ التواصل عبر الموقع الإلكتروني"
+
+#. module: recap_module
+#: model:ir.model.fields.selection,name:recap_module.selection__properity__garden_orientation__eest
+msgid "West"
+msgstr "غرب"
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_bedroom
+msgid "bedroom"
+msgstr "غرفة نوم"
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_owner
+msgid "owner"
+msgstr "مالك"
+
+#. module: recap_module
+#: model:ir.model,name:recap_module.model_properity
+msgid "properity"
+msgstr "عقار"
+
+#. module: recap_module
+#: model_terms:ir.ui.view,arch_db:recap_module.properity_view_search
+msgid "with Garage"
+msgstr "مع جراج"

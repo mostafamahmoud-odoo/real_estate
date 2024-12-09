@@ -1,0 +1,130 @@
+<odoo>
+
+    <record id="invoice_report_id" model="ir.actions.report">
+        <!--        first important field is the name of the report because it will be show in choose the report in menu for end user -->
+        <field name="name">Invoiecs Report</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="binding_model_id" ref="model_account_move"/>
+        <field name="binding_type">report</field>
+        <field name="report_name">recap_module.report_invoice_document_123</field>
+    </record>
+
+
+    <template id="property_report_template">
+
+        <t t-call="web.html_container">
+
+
+            <h1 style="font-family: 'BebasNeue';">Property Report</h1>
+
+            <style type="text/css">
+    /* Ensure that the body and html elements take up the full height */
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Set the table to take full width and height */
+    .tg {
+        border-collapse: collapse;
+        border-color: #9ABAD9;
+        border-spacing: 0;
+        width: 100%; /* Make the table take full width */
+        height: 100%; /* Make the table take full height */
+    }
+
+    /* Style for table data cells */
+    .tg td {
+        background-color: #EBF5FF;
+        border-bottom-width: 1px;
+        border-color: #9ABAD9;
+        border-style: solid;
+        border-top-width: 1px;
+        border-width: 0px;
+        color: #444;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    /* Style for table header cells */
+    .tg th {
+        background-color: #409cff;
+        border-bottom-width: 1px;
+        border-color: #9ABAD9;
+        border-style: solid;
+        border-top-width: 1px;
+        border-width: 0px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    /* Specific styling for classes */
+    .tg .tg-hmp3 {
+        background-color: #D2E4FC;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .tg .tg-baqh {
+        text-align: center;
+        vertical-align: top;
+    }
+</style>
+
+            <table class="tg">
+                <thead>
+                    <tr>
+                        <th class="tg-baqh" colspan="3" style="font-weight:bold">
+                            <br style="font-family: 'BebasNeue';">General Info</br>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tg-hmp3">
+                            <span style="font-weight:bold;color:#343434">Name</span>
+                        </td>
+
+                        <td class="tg-hmp3">
+                            <span style="font-weight:bold;color:#343434">PostCode</span>
+                        </td>
+
+                        <td class="tg-hmp3">
+                            <span style="font-weight:bold;color:#343434">Owner</span>
+                        </td>
+
+                    </tr>
+
+                    <t t-foreach="docs" t-as="rec">
+                        <tr>
+
+                            <td>
+                                <t t-esc="rec.name"/>
+                            </td>
+                            <td>
+                                <t t-esc="rec.postcode"/>
+                            </td>
+                            <td>
+                                <t t-esc="rec.owner_id.name"/>
+                            </td>
+                        </tr>
+                    </t>
+
+                </tbody>
+            </table>
+
+        </t>
+
+    </template>
+</odoo>

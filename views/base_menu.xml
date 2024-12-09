@@ -1,0 +1,23 @@
+<odoo>
+
+    <menuitem
+        id = "real_estate_root_menu"
+        name = "Real Estate"
+        web_icon="recap_module,static/description/icon.png"
+    />
+
+     <menuitem
+        id = "properites_menu"
+        name = "Properites"
+        parent = "real_estate_root_menu"
+    />
+
+
+     <menuitem
+        id = "owners_menu"
+        name = "Owners"
+        parent = "real_estate_root_menu"
+        groups="property_manager_group_id"
+    />
+
+</odoo>

@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_properiy,access_properiy,model_properity,,1,1,1,1
+
+access_bedroom,access_bedroom,model_bedroom,,1,1,1,1
+access_owner,access_owner,model_owner,,1,1,1,1
+access_change_state,access_change_state,model_change_state,,1,1,1,1
